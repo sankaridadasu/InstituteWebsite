@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Project on HTML and CSS</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="Utillities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Nav bar--> 
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">SmartTechs.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- AboutUs -->
+    <section class="about">
+        <div class="container grid-2">
+            <h2 class="lg">Contact Us</h2>
+            <div class="card">
+                <h3>Have Some Questions?</h3>
+                <p>
+                    Please feel free to ask any questions related to our Courses, Branches, Batches, Trainers or any other general queries. 
+                    Our team will respond to all your queries within 24hrs.
+                </p>
+            </div>
+            <div class="showcase-form card">
+                <h2>Register</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="number" name="number" placeholder="Moblie" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="technology" placeholder="Technology" required>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+            <img src="smartTechlogo.jpg" alt="">
+            <h1 class="md">Branches</h1>
+            <div class="branches">
+                <div class="card flex">
+                    <p>
+                        1-101,1st floor new building,Kukatpally, Hyderabad, Telangana 500072
+                    </p>
+                </div>
+                <div class="card flex">
+                    <p>
+                        #2-102, Vishweshwarapura, Basavanagudi, Bengaluru, Karnataka 560004
+                    </p>
+                </div>
+                <div class="card flex">
+                    <p>
+                        54-7/2G, opposite to Kamala theatre and above Vijaya Bank, Vadapalani, Chennai - 26
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container grid grid-3">
+            <div>
+                <h1>SmartTechs.</h1>
+                <p>Copyright &copy; 2023</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

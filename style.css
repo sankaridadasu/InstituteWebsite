@@ -174,19 +174,25 @@ img{
 }
 
 /* ContactPage */
+
 .about .showcase-form{
     top: 20px;
-   justify-self: flex-start;
+    justify-self: flex-start;
 }
 
-.about .container .branches .flex{
-    display: flex;
+.about .query{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .about .container img {
     width: 400px;
     height: 400px;
 }
+
+
 
 /*Footer*/
 .footer{

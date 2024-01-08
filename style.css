@@ -258,4 +258,7 @@ img{
     .showcase-form{
         width: 300px;
     }
+    .about .grid-2 .card{
+        justify-self: center;
+    }
 }
